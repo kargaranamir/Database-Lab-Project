@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ff" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=Ferodo;Initial Catalog=ff;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ffConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.city" Member="cities">
+    <Type Name="city">
+      <Column Name="country_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="city_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="city_name" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Association Name="city_coach" Member="coaches" ThisKey="city_id" OtherKey="city_id" Type="coach" />
+      <Association Name="city_personnel" Member="personnels" ThisKey="city_id" OtherKey="city_id" Type="personnel" />
+      <Association Name="city_player" Member="players" ThisKey="city_id" OtherKey="city_id" Type="player" />
+      <Association Name="city_referee" Member="referees" ThisKey="city_id" OtherKey="city_id" Type="referee" />
+      <Association Name="city_Stadium" Member="Stadiums" ThisKey="city_id" OtherKey="city_id" Type="Stadium" />
+      <Association Name="city_team" Member="teams" ThisKey="city_id" OtherKey="city_id" Type="team" />
+      <Association Name="country_city" Member="country" ThisKey="country_id" OtherKey="country_id" Type="country" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.coach" Member="coaches">
+    <Type Name="coach">
+      <Column Name="coach_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="city_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="coach_name" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="coach_lastname" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="coach_level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BirthYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="date_start_Coaching" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="coach_team_coach" Member="team_coaches" ThisKey="coach_id" OtherKey="id_coach" Type="team_coach" />
+      <Association Name="city_coach" Member="city" ThisKey="city_id" OtherKey="city_id" Type="city" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.team_player" Member="team_players">
+    <Type Name="team_player">
+      <Column Name="id_team" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="id_player" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="id_season" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="amount_" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Association Name="player_team_player" Member="player" ThisKey="id_player" OtherKey="player_id" Type="player" IsForeignKey="true" />
+      <Association Name="season_team_player" Member="season" ThisKey="id_season" OtherKey="season_id" Type="season" IsForeignKey="true" />
+      <Association Name="team_team_player" Member="team" ThisKey="id_team" OtherKey="team_id" Type="team" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.country" Member="countries">
+    <Type Name="country">
+      <Column Name="country_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="country_name" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Association Name="country_city" Member="cities" ThisKey="country_id" OtherKey="country_id" Type="city" />
+    </Type>
+  </Table>
+  <Table Name="dbo.detail_goal" Member="detail_goals">
+    <Type Name="detail_goal">
+      <Column Name="match_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="goal_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="player_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="goal_time" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="goal_type" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="match_detail_goal" Member="match" ThisKey="match_id" OtherKey="match_id" Type="match" IsForeignKey="true" />
+      <Association Name="player_detail_goal" Member="player" ThisKey="player_id" OtherKey="player_id" Type="player" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.detail_match" Member="detail_matches">
+    <Type Name="detail_match">
+      <Column Name="team_id_won" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="result" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="team_id_lost" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="point_judgment" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="match_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="match_detail_match" Member="match" ThisKey="match_id" OtherKey="match_id" Type="match" IsForeignKey="true" />
+      <Association Name="team_detail_match" Member="team" ThisKey="team_id_lost" OtherKey="team_id" Type="team" IsForeignKey="true" />
+      <Association Name="team_detail_match1" Member="team1" ThisKey="team_id_won" OtherKey="team_id" Type="team" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.detail_warning" Member="detail_warnings">
+    <Type Name="detail_warning">
+      <Column Name="match_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="warning_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="player_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="warning_type" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="warning_time" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="match_detail_warning" Member="match" ThisKey="match_id" OtherKey="match_id" Type="match" IsForeignKey="true" />
+      <Association Name="player_detail_warning" Member="player" ThisKey="player_id" OtherKey="player_id" Type="player" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.match" Member="matches">
+    <Type Name="match">
+      <Column Name="match_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="stage" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="team1_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="team2_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="stadium_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="match_date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="season_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="id_referee" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="id_assist_referee1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="id_assist_referee2" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Association Name="match_detail_goal" Member="detail_goals" ThisKey="match_id" OtherKey="match_id" Type="detail_goal" />
+      <Association Name="match_detail_match" Member="detail_match" ThisKey="match_id" OtherKey="match_id" Type="detail_match" Cardinality="One" />
+      <Association Name="match_detail_warning" Member="detail_warnings" ThisKey="match_id" OtherKey="match_id" Type="detail_warning" />
+      <Association Name="referee_match" Member="referee" ThisKey="id_assist_referee1" OtherKey="referee_id" Type="referee" IsForeignKey="true" />
+      <Association Name="referee_match1" Member="referee1" ThisKey="id_assist_referee2" OtherKey="referee_id" Type="referee" IsForeignKey="true" />
+      <Association Name="referee_match2" Member="referee2" ThisKey="id_referee" OtherKey="referee_id" Type="referee" IsForeignKey="true" />
+      <Association Name="season_match" Member="season" ThisKey="season_id" OtherKey="season_id" Type="season" IsForeignKey="true" />
+      <Association Name="Stadium_match" Member="Stadium" ThisKey="stadium_id" OtherKey="Stadium_id" Type="Stadium" IsForeignKey="true" />
+      <Association Name="team_match" Member="team" ThisKey="team1_id" OtherKey="team_id" Type="team" IsForeignKey="true" />
+      <Association Name="team_match1" Member="team1" ThisKey="team2_id" OtherKey="team_id" Type="team" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.personnel" Member="personnels">
+    <Type Name="personnel">
+      <Column Name="personnel_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="personnel_name" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="personnel_lastname" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="city_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="BirthYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="titel" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="date_start_working" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="city_personnel" Member="city" ThisKey="city_id" OtherKey="city_id" Type="city" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.player" Member="players">
+    <Type Name="player">
+      <Column Name="player_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="player_name" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="player_lastname" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="city_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="BirthYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="date_start_football" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="player_team_player" Member="team_players" ThisKey="player_id" OtherKey="id_player" Type="team_player" />
+      <Association Name="player_detail_goal" Member="detail_goals" ThisKey="player_id" OtherKey="player_id" Type="detail_goal" />
+      <Association Name="player_detail_warning" Member="detail_warnings" ThisKey="player_id" OtherKey="player_id" Type="detail_warning" />
+      <Association Name="city_player" Member="city" ThisKey="city_id" OtherKey="city_id" Type="city" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.referee" Member="referees">
+    <Type Name="referee">
+      <Column Name="referee_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="city_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="referee_name" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="referee_lastname" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="referee_level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BirthYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="date_start_referee" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="reffree_or_asstreferee" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="referee_match" Member="matches" ThisKey="referee_id" OtherKey="id_assist_referee1" Type="match" />
+      <Association Name="referee_match1" Member="matches1" ThisKey="referee_id" OtherKey="id_assist_referee2" Type="match" />
+      <Association Name="referee_match2" Member="matches2" ThisKey="referee_id" OtherKey="id_referee" Type="match" />
+      <Association Name="city_referee" Member="city" ThisKey="city_id" OtherKey="city_id" Type="city" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.season" Member="seasons">
+    <Type Name="season">
+      <Column Name="date_start" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="date_end" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="category" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="season_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="season_team_player" Member="team_players" ThisKey="season_id" OtherKey="id_season" Type="team_player" />
+      <Association Name="season_match" Member="matches" ThisKey="season_id" OtherKey="season_id" Type="match" />
+      <Association Name="season_team_coach" Member="team_coaches" ThisKey="season_id" OtherKey="id_season" Type="team_coach" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Stadium" Member="Stadiums">
+    <Type Name="Stadium">
+      <Column Name="Stadium_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="city_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Stadium_name" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="capacity" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Association Name="Stadium_match" Member="matches" ThisKey="Stadium_id" OtherKey="stadium_id" Type="match" />
+      <Association Name="city_Stadium" Member="city" ThisKey="city_id" OtherKey="city_id" Type="city" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.team" Member="teams">
+    <Type Name="team">
+      <Column Name="team_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="city_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="team_name" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Association Name="team_team_player" Member="team_players" ThisKey="team_id" OtherKey="id_team" Type="team_player" />
+      <Association Name="team_detail_match" Member="detail_matches" ThisKey="team_id" OtherKey="team_id_lost" Type="detail_match" />
+      <Association Name="team_detail_match1" Member="detail_matches1" ThisKey="team_id" OtherKey="team_id_won" Type="detail_match" />
+      <Association Name="team_match" Member="matches" ThisKey="team_id" OtherKey="team1_id" Type="match" />
+      <Association Name="team_match1" Member="matches1" ThisKey="team_id" OtherKey="team2_id" Type="match" />
+      <Association Name="team_team_coach" Member="team_coaches" ThisKey="team_id" OtherKey="id_team" Type="team_coach" />
+      <Association Name="city_team" Member="city" ThisKey="city_id" OtherKey="city_id" Type="city" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.team_coach" Member="team_coaches">
+    <Type Name="team_coach">
+      <Column Name="id_team" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="id_coach" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="id_season" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="amount_" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Association Name="coach_team_coach" Member="coach" ThisKey="id_coach" OtherKey="coach_id" Type="coach" IsForeignKey="true" />
+      <Association Name="season_team_coach" Member="season" ThisKey="id_season" OtherKey="season_id" Type="season" IsForeignKey="true" />
+      <Association Name="team_team_coach" Member="team" ThisKey="id_team" OtherKey="team_id" Type="team" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,198 @@
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\csc.exe
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\System.Collections.Immutable.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\vbc.exe
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\VBCSCompiler.exe
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\roslyn\VBCSCompiler.exe.config
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\WebApplication19.dll.config
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\WebApplication19.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\WebApplication19.pdb
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Antlr3.Runtime.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\EntityFramework.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\EntityFramework.SqlServer.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.Google.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Web.Infrastructure.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Newtonsoft.Json.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Owin.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\System.Web.Optimization.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\System.Web.Providers.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\WebGrease.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\System.Web.Optimization.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Antlr3.Runtime.pdb
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Newtonsoft.Json.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\EntityFramework.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\EntityFramework.SqlServer.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\System.Web.Providers.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.Google.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\obj\Debug\WebApplication19.csprojResolveAssemblyReference.cache
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\obj\Debug\WebApplication19.dll
+c:\users\pardis\documents\visual studio 2015\Projects\poroje\WebApplication19\obj\Debug\WebApplication19.pdb
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\csc.exe
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\System.Collections.Immutable.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\System.Reflection.Metadata.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\vbc.exe
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\VBCSCompiler.exe
+D:\9423023\New folder\poroje\WebApplication19\bin\roslyn\VBCSCompiler.exe.config
+D:\9423023\New folder\poroje\WebApplication19\bin\WebApplication19.dll.config
+D:\9423023\New folder\poroje\WebApplication19\bin\WebApplication19.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\WebApplication19.pdb
+D:\9423023\New folder\poroje\WebApplication19\bin\Antlr3.Runtime.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\AspNet.ScriptManager.bootstrap.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\AspNet.ScriptManager.jQuery.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\EntityFramework.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\EntityFramework.SqlServer.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.Core.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.Cookies.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.Facebook.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.Google.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.OAuth.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.Twitter.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.ScriptManager.WebForms.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Web.Infrastructure.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Newtonsoft.Json.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Owin.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\System.Web.Optimization.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\System.Web.Providers.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\WebGrease.dll
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\System.Web.Optimization.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Antlr3.Runtime.pdb
+D:\9423023\New folder\poroje\WebApplication19\bin\Newtonsoft.Json.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\EntityFramework.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\EntityFramework.SqlServer.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.Core.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\System.Web.Providers.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.Facebook.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.Cookies.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.Google.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.Twitter.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\9423023\New folder\poroje\WebApplication19\bin\Microsoft.Owin.Security.OAuth.xml
+D:\9423023\New folder\poroje\WebApplication19\obj\Debug\WebApplication19.csprojResolveAssemblyReference.cache
+D:\9423023\New folder\poroje\WebApplication19\obj\Debug\WebApplication19.dll
+D:\9423023\New folder\poroje\WebApplication19\obj\Debug\WebApplication19.pdb
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\csc.exe
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\vbc.exe
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\WebApplication19.dll.config
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\WebApplication19.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\WebApplication19.pdb
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Antlr3.Runtime.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\EntityFramework.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\EntityFramework.SqlServer.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Newtonsoft.Json.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Owin.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\System.Web.Optimization.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\System.Web.Providers.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\WebGrease.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\System.Web.Optimization.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Antlr3.Runtime.pdb
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Newtonsoft.Json.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\EntityFramework.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\EntityFramework.SqlServer.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\System.Web.Providers.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\obj\Debug\WebApplication19.csprojResolveAssemblyReference.cache
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\obj\Debug\WebApplication19.dll
+C:\Users\Ferodo\Documents\GitHub\football-federation\aspx code\WebApplication19\obj\Debug\WebApplication19.pdb
